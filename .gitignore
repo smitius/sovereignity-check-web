@@ -1,6 +1,5 @@
-# Dependencies
-vendor/
-composer.lock
+# Dependencies - included for self-standing builds
+# (vendor/ and composer.lock are kept for container builds)
 
 # Cache and temp files
 .cache/

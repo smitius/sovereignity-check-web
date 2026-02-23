@@ -1,0 +1,27 @@
+# Files to exclude from Docker build context
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (if any)
+*.log
+logs/
+
+# Cache (shouldn't exist but just in case)
+.cache/
+.config/
+.local/
+.pki/

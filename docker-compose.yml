@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  viewfinder-sovereign:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: viewfinder-sovereign:latest
+    container_name: viewfinder-sovereign
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+# To deploy:
+#   docker-compose up -d --build
+#
+# Or build and push to registry:
+#   docker build -t smitik/viewfinder-sovereign:latest .
+#   docker push smitik/viewfinder-sovereign:latest
