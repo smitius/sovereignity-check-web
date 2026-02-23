@@ -1,0 +1,22 @@
+# Dependencies
+vendor/
+composer.lock
+
+# Cache and temp files
+.cache/
+.config/
+.local/
+.pki/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
